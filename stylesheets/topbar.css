@@ -1,0 +1,59 @@
+body, html {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  margin-left: 15%; }
+
+.topbar-initials {
+  animation: blink 3s infinite; }
+
+.topbar-container {
+  z-index: 999;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.topbar-menu {
+  margin-right: 15%; }
+  .topbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-right: 1vw;
+    transition: all 150ms ease-in-out; }
+    .topbar-menu a:hover {
+      color: #4df3ff;
+      border-bottom: solid white 2px; }
+    .topbar-menu a:active {
+      font-size: 17px; }
+
+@keyframes blink {
+  15% {
+    color: #ff5c67; }
+  35% {
+    color: #4df3ff; }
+  70% {
+    color: #835ae8; }
+  95% {
+    color: #4dffa3; } }
+.active {
+  border-bottom: solid #4df3ff 2px; }
+
+@media (max-width: 1200px) {
+  .topbar-initials {
+    display: none; }
+
+  .topbar-container {
+    justify-content: center; }
+
+  .topbar-menu {
+    margin-right: 0px; } }

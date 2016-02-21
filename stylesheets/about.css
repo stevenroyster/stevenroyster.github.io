@@ -1,0 +1,74 @@
+body {
+  background: transparent;
+  padding: 0;
+  margin: 0; }
+
+.about-page-bg {
+  width: 100vw;
+  height: 93vh;
+  position: fixed;
+  z-index: -1;
+  background-image: url(../css/images/about-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.about-container {
+  width: 100vw;
+  height: 93vh;
+  overflow: scroll;
+  background: rgba(255, 255, 255, 0.5);
+  margin: auto auto;
+  margin-top: 7vh;
+  margin-bottom: 0; }
+
+.about-bio {
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 60px;
+  padding: 20px 50px 20px 50px;
+  width: 50vw;
+  color: white;
+  text-shadow: 2px 2px 4px black; }
+
+.about-inner-container {
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.abouth1 {
+  color: #ff5c67;
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+  margin: 0;
+  margin-bottom: -15px;
+  margin-top: 7vh;
+  padding: 0;
+  text-shadow: 8px 8px 8px black; }
+
+.about-name-container {
+  background: black;
+  padding: 5px 20px 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.about-name-steven, .about-name-royster {
+  color: white;
+  font-family: "Sofia", cursive;
+  font-size: 50px;
+  padding: 0;
+  margin: 0; }
+
+.about-name-steven {
+  color: #ff5c67; }
+
+.about-name-royster {
+  color: #4df3ff; }
+
+@media (max-width: 415px) {
+  .about-name-container {
+    width: 65vw; } }

@@ -1,0 +1,21 @@
+.footer-container {
+  background: #ff5c67;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer-email {
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+  color: #4dffa3;
+  font-size: 60px;
+  z-index: 999;
+  text-shadow: 7px 7px 10px black;
+  padding: 0; }
+
+@media (max-width: 700px) {
+  .footer-email {
+    font-size: 45px; } }
+@media (max-width: 580px) {
+  .footer-email {
+    font-size: 35px; } }

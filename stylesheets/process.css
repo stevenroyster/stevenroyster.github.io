@@ -1,0 +1,85 @@
+.process-page-bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  background-image: url(../css/images/process-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.process-intro-container {
+  background: rgba(131, 90, 232, 0.9);
+  color: white;
+  width: 45vw;
+  height: 25vh;
+  margin-top: 13vh;
+  margin-bottom: 20vh;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 10px; }
+  .process-intro-container img {
+    animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0% {
+    margin-top: 0px; }
+  50% {
+    margin-top: 45px; } }
+.process-steps-container {
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.about-container {
+  overflow-x: hidden; }
+
+.process-step {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 40vw;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Sofia", cursive;
+  position: relative;
+  top: -40px;
+  background: #835ae8;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px; }
+
+.process-title {
+  margin: -35px 0 0 0;
+  padding: 0;
+  font-size: 25px; }
+
+.process-description {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  padding: 0 40px 0px 40px;
+  text-align: center; }
+
+@media (max-width: 415px) {
+  .process-intro-container {
+    width: 80vw; }
+
+  .process-step {
+    width: 70vw; }
+
+  .about-container {
+    margin: 0px;
+    width: 80vw; }
+
+  .process-steps-container {
+    width: 100vw; } }

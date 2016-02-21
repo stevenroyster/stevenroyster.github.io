@@ -1,0 +1,71 @@
+.psuedo-header-container {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header-container {
+  height: 100vh;
+  background-image: url(images/header-bg3.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
+.header-center-content {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 3px;
+  width: 40vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.header-names {
+  display: flex;
+  flex-direction: row; }
+
+.stevenh1, .roysterh1 {
+  margin: 0;
+  padding: 0; }
+
+.stevenh1 {
+  color: #ff5c67; }
+
+.roysterh1 {
+  color: #4df3ff; }
+
+.header-cta-btn {
+  width: 13vw;
+  padding: 10px 20px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 3px;
+  border: solid white 1px;
+  color: white;
+  background: #ff5c67;
+  transition: all 170ms ease-in-out; }
+  .header-cta-btn:hover {
+    background: white;
+    border: solid #ff5c67 1px;
+    color: #ff5c67;
+    cursor: pointer; }
+
+@media (max-width: 1200px) {
+  .header-cta-btn {
+    width: 25vw; } }
+@media (max-width: 800px) {
+  .header-center-content {
+    margin-top: 10vh;
+    background: rgba(0, 0, 0, 0.6); }
+
+  .header-container {
+    background-image: url(images/mobile-header-bg.jpg); }
+
+  .header-cta-btn {
+    width: 37vw; } }
+@media (max-width: 415px) {
+  .header-center-content {
+    width: 75vw; }
+
+  .header-cta-btn {
+    width: 65vw; } }

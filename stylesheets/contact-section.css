@@ -1,0 +1,99 @@
+.contact-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact-content-container {
+  width: 89vw;
+  height: 100vh;
+  background: #4df3ff;
+  transform: rotate(165deg);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact-inner-container {
+  border-radius: 15px;
+  background: white;
+  width: 45vw;
+  height: 45vh;
+  transform: rotate(195deg);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contact-inner-container p {
+    border-radius: 5px;
+    margin-right: 10px;
+    background: #835ae8;
+    padding: 5px;
+    color: #ff5c67;
+    width: 7vw;
+    height: 20.5vh;
+    font-size: 33px;
+    text-align: center;
+    text-shadow: 2px 2px 6px black;
+    font-family: "Montserrat Alternates", sans-serif; }
+
+.oldphone {
+  filter: blur(3px); }
+
+.contact-btn {
+  border: solid black 1px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  background: #ff5c67;
+  box-shadow: 2px 2px 10px black;
+  padding: 5px 5px;
+  width: 7vw;
+  border-radius: 4px;
+  transition: all 100ms ease-in-out; }
+  .contact-btn:hover {
+    box-shadow: none;
+    cursor: pointer;
+    background: white;
+    color: #ff5c67; }
+
+@media (max-width: 1350px) {
+  .contact-content-container {
+    transform: rotate(0deg);
+    width: 100vw; }
+
+  .contact-inner-container {
+    width: 55vw;
+    height: 55vh;
+    transform: rotate(0deg); }
+    .contact-inner-container p {
+      width: 15vw; }
+
+  .oldphone {
+    width: 20vw;
+    height: 23vh; }
+
+  .contact-btn {
+    width: 15vw; } }
+@media (max-width: 780px) {
+  .contact-inner-container {
+    width: 60vw;
+    height: 60vh; }
+    .contact-inner-container p {
+      width: 20vw; } }
+@media (max-width: 630px) {
+  .oldphone {
+    width: 25vw;
+    height: 25vh; }
+
+  .contact-inner-container p {
+    height: 30vw; } }
+@media (max-width: 415px) {
+  .contact-inner-container {
+    width: 85vw;
+    height: 55vh; }
+    .contact-inner-container p {
+      width: 35vw;
+      height: 30vh; }
+
+  .contact-btn {
+    width: 25vw; }
+
+  .oldphone {
+    width: 35vw; } }
