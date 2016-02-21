@@ -7,7 +7,7 @@
 
 .header-container {
   height: 100vh;
-  background-image: url(images/header-bg3.jpg);
+  background-image: url(../images/header-bg3.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
@@ -59,7 +59,7 @@
     background: rgba(0, 0, 0, 0.6); }
 
   .header-container {
-    background-image: url(images/mobile-header-bg.jpg); }
+    background-image: url(../images/mobile-header-bg.jpg); }
 
   .header-cta-btn {
     width: 37vw; } }
