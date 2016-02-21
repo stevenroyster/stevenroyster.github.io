@@ -6,7 +6,7 @@
   height: 93vh;
   position: absolute;
   z-index: -1;
-  background-image: url(images/contact-bg.jpg);
+  background-image: url(../images/contact-bg.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
