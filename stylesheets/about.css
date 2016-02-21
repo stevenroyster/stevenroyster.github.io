@@ -8,7 +8,7 @@ body {
   height: 93vh;
   position: fixed;
   z-index: -1;
-  background-image: url(../css/images/about-bg.jpg);
+  background-image: url(../images/about-bg.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
