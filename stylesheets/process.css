@@ -3,7 +3,7 @@
   height: 100vh;
   position: fixed;
   z-index: -1;
-  background-image: url(../css/images/process-bg.jpg);
+  background-image: url(../images/process-bg.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
