@@ -8,10 +8,10 @@
   background-size: cover; }
 
 .process-intro-container {
-  background: rgba(131, 90, 232, 0.9);
   color: white;
   width: 45vw;
-  height: 25vh;
+  height: 235px;
+  text-shadow: 2px 2px 4px black;
   margin-top: 13vh;
   margin-bottom: 20vh;
   text-align: center;
